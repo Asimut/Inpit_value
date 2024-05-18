@@ -13,7 +13,7 @@ let isCursorInInputField = false;
 let longPressTimeout;
 
 // Проверяем наличие поля ввода
-var inputField = document.querySelector("input[data-dv_ref='input']");
+var inputField = document.querySelector("textarea[data-dv_ref='input']");
 console.log(inputField);
 if (inputField) {
     console.log("Поле ввода с атрибутом data-dv_ref='input' найдено.");
@@ -46,11 +46,11 @@ if (inputField) {
     inputField.addEventListener("touchstart", function() {
         longPressTimeout = setTimeout(function() {
             if (isCursorInInputField) {
-                console.log("Поле ввода получило долгое нажатие, проверка буфера обмена");
+                console.log("Поле ввода получило долгое нажатие");
                 if (isIOSDevice()) {
                     notifyUserToPaste();
                 } else {
-                    checkClipboardAndPaste();
+                    pasteFromClipboard();
                 }
             }
         }, 500); // Время в миллисекундах для распознавания долгого нажатия
@@ -80,40 +80,14 @@ function insertText(text) {
 // Функция для копирования текста из буфера обмена
 function pasteFromClipboard() {
     navigator.clipboard.readText().then(function(clipText) {
-        if (clipText && clipText.trim() !== "") {
+        if (clipText) {
             insertText(clipText);
             console.log("Текст из буфера обмена успешно вставлен: " + clipText);
         } else {
-            console.log("Буфер обмена пуст или содержит только пробелы.");
+            console.log("Буфер обмена пуст.");
         }
     }).catch(function(error) {
         console.error("Ошибка при чтении из буфера обмена: ", error);
-    });
-}
-
-// Функция для проверки буфера обмена и вставки текста
-function checkClipboardAndPaste() {
-    if (!document.hasFocus()) {
-        console.log("Документ не имеет фокуса, ожидание фокуса...");
-        // Повторяем проверку через 100 мс до тех пор, пока документ не получит фокуса
-        setTimeout(checkClipboardAndPaste, 100);
-        return;
-    }
-
-    navigator.clipboard.readText().then(function(clipText) {
-        console.log("Буфер обмена прочитан: ", clipText);
-        if (clipText && clipText.trim() !== "") {
-            pasteFromClipboard(clipText);
-        } else {
-            console.log("Буфер обмена пуст или содержит только пробелы. Действие не выполнено.");
-        }
-    }).catch(function(error) {
-        if (error.name === 'NotAllowedError' || error.name === 'NotFoundError') {
-            console.log("Буфер обмена пуст или доступ запрещен.");
-            alert("Пожалуйста, разрешите доступ к буферу обмена.");
-        } else {
-            console.error("Ошибка при чтении из буфера обмена: ", error);
-        }
     });
 }
 
@@ -121,29 +95,6 @@ function checkClipboardAndPaste() {
 function notifyUserToPaste() {
     alert("Чтобы вставить текст, нажмите и удерживайте палец на поле ввода, затем выберите 'Вставить' из контекстного меню.");
     inputField.focus(); // Устанавливаем фокус на поле ввода
-}
-
-// Функция для запроса доступа к буферу обмена
-function requestClipboardAccess() {
-    navigator.permissions.query({ name: "clipboard-read" }).then(permissionStatus => {
-        console.log(`Состояние разрешения на чтение буфера обмена: ${permissionStatus.state}`);
-        if (permissionStatus.state === "granted") {
-            checkClipboardAndPaste();
-        } else if (permissionStatus.state === "prompt") {
-            alert("Пожалуйста, разрешите доступ к буферу обмена.");
-            permissionStatus.onchange = () => {
-                if (permissionStatus.state === "granted") {
-                    checkClipboardAndPaste();
-                } else {
-                    console.log("Доступ к буферу обмена отклонен.");
-                }
-            };
-        } else {
-            console.log("Доступ к буферу обмена отклонен.");
-        }
-    }).catch(function(error) {
-        console.error("Ошибка при запросе разрешения на доступ к буферу обмена: ", error);
-    });
 }
 
 // Проверка, является ли устройство iOS
@@ -162,6 +113,7 @@ if (!isMobileDevice()) {
     console.log("Код запускается только на мобильных устройствах.");
     return;
 }
+
 
     
 }

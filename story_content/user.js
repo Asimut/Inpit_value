@@ -13,7 +13,7 @@ let isCursorInInputField = false;
 let longPressTimeout;
 
 // Проверяем наличие поля ввода
-var inputField = document.querySelector("textarea[data-dv_ref='input']");
+var inputField = document.querySelector("input[data-dv_ref='input']");
 console.log(inputField);
 if (inputField) {
     console.log("Поле ввода с атрибутом data-dv_ref='input' найдено.");
@@ -23,6 +23,7 @@ if (inputField) {
     // Добавляем обработчик события клика
     inputField.addEventListener("click", function() {
         console.log('click!!');
+
         if (!isCursorInInputField) {
             console.log("Поле ввода получило первый клик, курсор установлен");
             inputField.removeAttribute("readonly");
@@ -36,7 +37,12 @@ if (inputField) {
         console.log("Курсор установлен в поле ввода");
     });
 
-    inputField.addEventListener("blur", function() {
+    inputField.addEventListener("focus", function() {
+        isCursorInInputField = true;
+        inputField.removeAttribute("readonly");
+    });
+
+    inputField.addEventListener("keydown keyup", function() {
         isCursorInInputField = false;
         inputField.setAttribute("readonly", "false");
         console.log("Курсор убран из поля ввода и атрибут readonly установлен");

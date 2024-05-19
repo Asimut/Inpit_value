@@ -7,7 +7,7 @@ var setVar = player.SetVar;
 var getVar = player.GetVar;
 window.Script1 = function()
 {
-    // Функция для проверки, работает ли код на мобильном устройстве
+// Функция для проверки, работает ли код на мобильном устройстве
 function isMobile() {
     return /Android|iPhone|iPad|iPod|Opera Mini|IEMobile|WPDesktop/i.test(navigator.userAgent);
 }
@@ -18,7 +18,7 @@ function pasteFromClipboard(event) {
     setTimeout(function() {
         navigator.clipboard.readText().then(function(text) {
             // Найти поле ввода и вставить текст из буфера обмена
-            var inputField = document.querySelector('input'); // Замените 'input' на ваш селектор
+            var inputField = document.querySelector('[data-dv_ref="input"]');
             if (inputField) {
                 inputField.value = text;
                 // Обновить переменную Articulate
@@ -33,7 +33,7 @@ function pasteFromClipboard(event) {
 // Добавление обработчика событий на поле ввода
 document.addEventListener('DOMContentLoaded', function() {
     if (isMobile()) {
-        var inputField = document.querySelector('input'); // Замените 'input' на ваш селектор
+        var inputField = document.querySelector('[data-dv_ref="input"]');
         if (inputField) {
             inputField.addEventListener('touchstart', pasteFromClipboard);
         }

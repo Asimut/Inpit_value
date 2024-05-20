@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns00001100101" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0x4FBDF4">
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxnanbnsnfns00001100101" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0x4893B8">
   <layouts>
-    <layout name="npnxnanbsnfns00001100101" font="Lato" controllayout="npnxnanbsnfns00001100101" colorscheme="pxabnsnfns00001100101" string_table="pxabnsnfns00001100101" />
-    <layout name="pxabnsnfns00001100101" font="Lato" controllayout="pxabnsnfns00001100101" colorscheme="pxabnsnfns00001100101" string_table="pxabnsnfns00001100101" />
-    <layout name="npxnabnsnfns00001100101" font="Lato" controllayout="npxnabnsnfns00001100101" colorscheme="pxabnsnfns00001100101" string_table="pxabnsnfns00001100101" />
-    <layout name="npnxnanbnsnfns00001100101" font="Lato" controllayout="npnxnanbnsnfns00001100101" colorscheme="pxabnsnfns00001100101" string_table="pxabnsnfns00001100101" />
-    <layout name="pxabnsnfns00001100100" font="Lato" controllayout="pxabnsnfns00001100100" colorscheme="pxabnsnfns00001100101" string_table="pxabnsnfns00001100101" />
+    <layout name="npnxnanbsnfns00001100101" font="Open Sans" controllayout="npnxnanbsnfns00001100101" colorscheme="npnxnanbnsnfns00001100101" string_table="npnxnanbnsnfns00001100101" />
+    <layout name="pxabnsnfns00001100101" font="Open Sans" controllayout="pxabnsnfns00001100101" colorscheme="npnxnanbnsnfns00001100101" string_table="npnxnanbnsnfns00001100101" />
+    <layout name="npxnabnsnfns00001100101" font="Open Sans" controllayout="npxnabnsnfns00001100101" colorscheme="npnxnanbnsnfns00001100101" string_table="npnxnanbnsnfns00001100101" />
+    <layout name="npnxnanbnsnfns00001100101" font="Open Sans" controllayout="npnxnanbnsnfns00001100101" colorscheme="npnxnanbnsnfns00001100101" string_table="npnxnanbnsnfns00001100101" />
+    <layout name="pxabnsnfns00001100100" font="Open Sans" controllayout="pxabnsnfns00001100100" colorscheme="npnxnanbnsnfns00001100101" string_table="npnxnanbnsnfns00001100101" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -13,7 +13,7 @@
         <options>
           <option name="title_enabled" value="true">
             <options>
-              <option name="title_text" value="Untitled1" />
+              <option name="title_text" value="Mission Hospitality 5" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
@@ -88,7 +88,7 @@
       </optiongroup>
       <optiongroup name="ccOptions">
         <options>
-          <option name="font" value="Lato" />
+          <option name="font" value="Open Sans" />
           <option name="size" value="100" />
           <option name="placement" value="100" />
           <option name="backgroundColor" value="#000000FF" />
@@ -225,7 +225,7 @@
     </control_layout>
   </control_layouts>
   <colorschemes>
-    <colorscheme name="pxabnsnfns00001100101">
+    <colorscheme name="npnxnanbnsnfns00001100101">
       <color_group name="accessibility">
         <group_colors>
           <color name="focus_rect">
@@ -249,14 +249,14 @@
           <color name="htmlpage_bg_color">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x282828" alpha="100" stop="0" />
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="preloader">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+                <color rgb="0x8C8C8C" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -267,7 +267,7 @@
           <color name="link_text">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xBABBBA" alpha="100" stop="0" />
+                <color rgb="0x585858" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -348,7 +348,7 @@
           <color name="bio_text">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xBABBBA" alpha="100" stop="0" />
+                <color rgb="0x585858" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -359,7 +359,7 @@
           <color name="duration">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x3C3C3C" alpha="100" stop="0" />
+                <color rgb="0xDCDCDC" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -387,7 +387,7 @@
           <color name="text">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xBABBBA" alpha="100" stop="0" />
+                <color rgb="0x585858" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -398,42 +398,42 @@
           <color name="text">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+                <color rgb="0x464646" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="btn_text">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+                <color rgb="0x464646" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="inner">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x316300" alpha="0" stop="0" />
+                <color rgb="0x316300" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="bg">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x212121" alpha="100" stop="0" />
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="diva">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x4E4E4E" alpha="100" stop="0" />
+                <color rgb="0x000000" alpha="0" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="divb">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x4E4E4E" alpha="0" stop="0" />
+                <color rgb="0x000000" alpha="0" stop="0" />
               </colors>
             </fill>
           </color>
@@ -447,21 +447,21 @@
           <color name="border">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x454545" alpha="100" stop="0" />
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="separator">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+                <color rgb="0x464646" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="selected_border">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+                <color rgb="0x464646" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -472,14 +472,14 @@
           <color name="slide_text">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xE2E2E2" alpha="100" stop="0" />
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="html_text">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xBABBBA" alpha="100" stop="0" />
+                <color rgb="0x464646" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -500,28 +500,28 @@
           <color name="btn_border">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xD3D3D3" alpha="100" stop="0" />
+                <color rgb="0x214400" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="btn_hover">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x444444" alpha="100" stop="0" />
+                <color rgb="0x428E00" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="btn_down">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x444444" alpha="100" stop="0" />
+                <color rgb="0x2E5D00" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="btn_bg">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x222222" alpha="100" stop="0" />
+                <color rgb="0x3C7C00" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -532,7 +532,7 @@
           <color name="scene_text">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+                <color rgb="0x2C2F30" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -548,21 +548,21 @@
           <color name="text">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xBABBBA" alpha="100" stop="0" />
+                <color rgb="0x464646" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="viewed">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xBABBBA" alpha="100" stop="0" />
+                <color rgb="0x464646" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="hover">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xFFFFFF" alpha="6" stop="0" />
+                <color rgb="0x000000" alpha="5" stop="0" />
               </colors>
             </fill>
           </color>
@@ -572,7 +572,7 @@
           <color name="selected_hover_border">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+                <color rgb="0x8E8F8E" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -597,21 +597,21 @@
           <color name="text">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xBABBBA" alpha="100" stop="0" />
+                <color rgb="0x464646" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="hover">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xBABBBA" alpha="100" stop="0" />
+                <color rgb="0x464646" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="heading_text">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+                <color rgb="0x2C2F30" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -650,7 +650,7 @@
           <color name="text">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xBABBBA" alpha="100" stop="0" />
+                <color rgb="0x464646" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -668,7 +668,7 @@
           <color name="hover">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xFFFFFF" alpha="6" stop="0" />
+                <color rgb="0x000000" alpha="5" stop="0" />
               </colors>
             </fill>
           </color>
@@ -743,21 +743,21 @@
           <color name="hover">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+                <color rgb="0x272B2C" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="selected">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+                <color rgb="0x272B2C" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="text">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xBABBBA" alpha="100" stop="0" />
+                <color rgb="0x585858" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -771,14 +771,14 @@
           <color name="panel_bg">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x212121" alpha="100" stop="0" />
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="bottom_border">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+                <color rgb="0x8E8F8E" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -789,7 +789,7 @@
           <color name="btn_icon_color">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xB4B4B4" alpha="100" stop="0" />
+                <color rgb="0x8C8C8C" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -803,7 +803,7 @@
           <color name="seek_bg">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+                <color rgb="0x8E8F8E" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -849,7 +849,7 @@
           <color name="text_active">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+                <color rgb="0x2C2F30" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -863,7 +863,7 @@
           <color name="search_text">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xBABBBA" alpha="100" stop="0" />
+                <color rgb="0x464646" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -884,7 +884,7 @@
           <color name="icon">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xBABBBA" alpha="100" stop="0" />
+                <color rgb="0x585858" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -898,21 +898,21 @@
           <color name="outer_border">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+                <color rgb="0x8E8F8E" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="bg">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xFFFFFF" alpha="6" stop="0" />
+                <color rgb="0x000000" alpha="5" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="bg_in_tab">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x545454" alpha="100" stop="0" />
+                <color rgb="0xEAEAEA" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -965,14 +965,14 @@
           <color name="button_bg">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xB3B4B3" alpha="75" stop="0" />
+                <color rgb="0x585858" alpha="80" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="button_bg_hover">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xB3B4B3" alpha="75" stop="0" />
+                <color rgb="0x585858" alpha="80" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1004,14 +1004,14 @@
           <color name="bg">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x212121" alpha="100" stop="0" />
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="generic_shadow">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x000000" alpha="94" stop="0" />
+                <color rgb="0x373737" alpha="77" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1019,14 +1019,15 @@
             <fill type="linear" rotation="0">
               <colors>
                 <color rgb="0x000000" alpha="0" stop="0" />
-                <color rgb="0x000000" alpha="30" stop="255" />
+                <color rgb="0x000000" alpha="1" stop="89" />
+                <color rgb="0x000000" alpha="6" stop="255" />
               </colors>
             </fill>
           </color>
           <color name="border">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x454545" alpha="100" stop="0" />
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1094,7 +1095,7 @@
           <color name="btn_icon_color">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xBABBBA" alpha="100" stop="0" />
+                <color rgb="0x585858" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1108,7 +1109,7 @@
           <color name="btn_text">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xBABBBA" alpha="100" stop="0" />
+                <color rgb="0x585858" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1122,7 +1123,7 @@
           <color name="btn_hover">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+                <color rgb="0x272B2C" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1168,42 +1169,42 @@
           <color name="brandhighlight">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x4FBDF4" alpha="100" stop="0" />
+                <color rgb="0x4893B8" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="brandhighlight_secondary">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+                <color rgb="0x4893B8" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="text">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xBABBBA" alpha="100" stop="0" />
+                <color rgb="0x585858" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="text_hover">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+                <color rgb="0x272B2C" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="text_selected">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+                <color rgb="0x272B2C" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="diva">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x454545" alpha="100" stop="0" />
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1217,28 +1218,28 @@
           <color name="menu_shade">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x212121" alpha="100" stop="0" />
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="border">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x282828" alpha="100" stop="0" />
+                <color rgb="0xFFFFFF" alpha="0" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="bg">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x282828" alpha="100" stop="0" />
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="slide_bg">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x282828" alpha="100" stop="0" />
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1252,28 +1253,28 @@
           <color name="selected_bg">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xFFFFFF" alpha="6" stop="0" />
+                <color rgb="0x000000" alpha="5" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="selected_border">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+                <color rgb="0x8E8F8E" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="separator">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x454545" alpha="100" stop="0" />
+                <color rgb="0x8E8F8E" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="control_border">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+                <color rgb="0x8E8F8E" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1284,7 +1285,7 @@
           <color name="panel_bg">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x212121" alpha="100" stop="0" />
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1298,42 +1299,42 @@
           <color name="toggle_border">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x7C7C7C" alpha="100" stop="0" />
+                <color rgb="0x919191" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="toggle_thumb_off">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xA2A2A2" alpha="100" stop="0" />
+                <color rgb="0x585858" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="toggle_track_on">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x4FBDF4" alpha="100" stop="0" />
+                <color rgb="0x4893B8" alpha="30" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="toggle_track_off">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xFFFFFF" alpha="10" stop="0" />
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="toggle_label">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xBABBBA" alpha="100" stop="0" />
+                <color rgb="0x464646" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="settings_border_color">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x454545" alpha="100" stop="0" />
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1344,7 +1345,7 @@
           <color name="panel_bg">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x212121" alpha="100" stop="0" />
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1379,21 +1380,21 @@
           <color name="slider_bg">
             <fill type="linear" rotation="0">
               <colors>
-                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+                <color rgb="0x8E8F8E" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="slider_shadow">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x000000" alpha="40" stop="0" />
+                <color rgb="0x000000" alpha="20" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="volume_border_color">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x454545" alpha="100" stop="0" />
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1402,149 +1403,183 @@
     </colorscheme>
   </colorschemes>
   <string_tables>
-    <string_table name="pxabnsnfns00001100101">
-      <string id="three_image_progress_audio">progress</string>
-      <string id="three_image_audio">audio</string>
-      <string id="three_image_camera_down">camera moved down</string>
-      <string id="three_image_camera_left">camera moved left</string>
-      <string id="three_image_camera_right">camera moved right</string>
-      <string id="three_image_camera_up">camera moved up</string>
-      <string id="three_image_interaction_free">free exploration mode</string>
-      <string id="three_image_interaction_guided">guided tour mode</string>
-      <string id="three_image_hotspot">hotspot</string>
-      <string id="progress_hour">hour</string>
-      <string id="progress_hours">hours</string>
-      <string id="three_image_instructions">Use the w, a, s, and d keys to move around the 360 degree image. Press the tab key to jump to interactive markers and hotspots.</string>
-      <string id="three_image_interaction">360 degree image interaction</string>
-      <string id="three_image_label">label</string>
-      <string id="three_image_marker">marker</string>
-      <string id="progress_minute">minute</string>
-      <string id="progress_minutes">minutes</string>
-      <string id="three_image_interaction_next">next</string>
-      <string id="three_image_pause_audio">pause audio</string>
-      <string id="three_image_pause_video">pause video</string>
-      <string id="three_image_play_audio">play audio</string>
-      <string id="three_image_play_video">play video</string>
-      <string id="three_image_interaction_prev">previous</string>
-      <string id="progress_second">second</string>
-      <string id="progress_seconds">seconds</string>
-      <string id="three_image_count_of_total">%count% of %total%</string>
-      <string id="acc_three_image_step_count_of_total">step %count% of %total%</string>
-      <string id="three_image_tooltip">tooltip</string>
-      <string id="three_image_total_items">%total% items</string>
-      <string id="three_image_total_item">%total% item</string>
-      <string id="three_image_progress_video">progress</string>
-      <string id="three_image_video">video</string>
-      <string id="three_image_video_volume">video volume</string>
-      <string id="acc_three_image_count_of_total_items_visited">%count% of %total% items visited</string>
-      <string id="acc_three_image_count_of_total_item_visited">%count% of %total% item visited</string>
-      <string id="three_image_count_of_total_visited">%count% of %total% visited</string>
-      <string id="accessible_text">Accessible text</string>
-      <string id="background_audio">Background audio</string>
-      <string id="keyboardshortcuts_lower">Keyboard shortcuts</string>
-      <string id="zoom_to_fit">Zoom to fit</string>
-      <string id="modern_video_settings_close">close video settings</string>
-      <string id="acc_modern_video_fullscreen">full-screen video</string>
-      <string id="modern_video_playback_settings">Video Playback Settings</string>
-      <string id="modern_video_captions_off">Off</string>
-      <string id="modern_video_captions_on">On</string>
-      <string id="modern_video_captions_label">Captions</string>
-      <string id="acc_modern_video_settings">video settings</string>
-      <string id="acc_modern_video_mute">mute video</string>
-      <string id="modern_video_normal_speed">Normal</string>
-      <string id="acc_modern_video_pause">pause video</string>
-      <string id="acc_modern_video_pip">picture-in-picture</string>
-      <string id="acc_modern_video_play">play video</string>
-      <string id="modern_video_playback_speed_title">Playback Speed</string>
-      <string id="acc_modern_video_captions">video captions</string>
-      <string id="acc_modern_video_playback_speed">playback speed</string>
-      <string id="acc_modern_video_volume">video volume</string>
-      <string id="closed_captions">Captions</string>
-      <string id="continueresponsive">Continue</string>
-      <string id="next">NEXT</string>
-      <string id="prev">PREV</string>
-      <string id="submit">SUBMIT</string>
-      <string id="playback_speed_title">Playback Speed</string>
-      <string id="playback_speed_normal">Normal</string>
-      <string id="continue">Continue</string>
-      <string id="glossary">Glossary</string>
-      <string id="terms">Terms</string>
-      <string id="action">Action</string>
+    <string_table name="npnxnanbnsnfns00001100101">
+      <string id="acc_active">активна</string>
+      <string id="acc_closed_captions">Приховані субтитри. Натисніть клавішу пробілу, щоб увімкнути або вимкнути субтитри.</string>
+      <string id="acc_definition">визначення</string>
+      <string id="acc_finish">готово</string>
+      <string id="acc_resources">Ресурси</string>
+      <string id="acc_submitall">ВІДПРАВИТИ ВСЕ</string>
+      <string id="acc_volume">Гучність</string>
+      <string id="bio">Біографія</string>
+      <string id="check_include">Додати до списку</string>
+      <string id="closed_captions_tip">Перемикання субтитрів</string>
+      <string id="definition">Визначення</string>
+      <string id="enter_key">Enter</string>
+      <string id="exit">Вийти</string>
+      <string id="finish">ГОТОВО</string>
+      <string id="more_info">Додатково</string>
+      <string id="mute_tip">Вимк. звук</string>
+      <string id="next_slide_tip">Наступний слайд</string>
+      <string id="pause_tip">Пауза</string>
+      <string id="play_tip">Відтворення</string>
+      <string id="previous_slide_tip">Попередній слайд</string>
+      <string id="question_list">Список питань</string>
+      <string id="replay_tip">Повторити</string>
+      <string id="send_an_email">Відправити лист</string>
+      <string id="settings_tip">Параметри</string>
+      <string id="spacebar_key">Space</string>
+      <string id="submit_tip">Додати</string>
+      <string id="submitall">ВІДПРАВИТИ ВСЕ</string>
+      <string id="three_image_interaction_step">крок</string>
+      <string id="three_image_item">предмет</string>
+      <string id="three_image_items">предмети</string>
+      <string id="three_image_of">із</string>
+      <string id="three_image_view_image">посмотреть изображение</string>
+      <string id="three_image_visited">відвідано</string>
+      <string id="unmute_tip">Увімк. звук</string>
+      <string id="three_image_progress_audio">прогрес</string>
+      <string id="three_image_audio">аудіо</string>
+      <string id="three_image_camera_down">камера переміщена донизу</string>
+      <string id="three_image_camera_left">камеру переміщено вліво</string>
+      <string id="three_image_camera_right">камера перемещена вправо</string>
+      <string id="three_image_camera_up">камеру переміщено вгору</string>
+      <string id="three_image_interaction_free">режим вільного дослідження</string>
+      <string id="three_image_interaction_guided">режим путівника</string>
+      <string id="three_image_hotspot">горячая точка</string>
+      <string id="progress_hour">Година</string>
+      <string id="progress_hours">Годин</string>
+      <string id="three_image_instructions">Используйте клавиши W, A, S и D для Використовуйте клавіші W, A, S та D для переміщення по 360-градусному зображенню. Натисніть клавішу Tab, щоб перейти до інтерактивних маркерів та гарячих точок.</string>
+      <string id="three_image_interaction">Взаємодія з 360 градусним зображенням</string>
+      <string id="three_image_label">ярлик</string>
+      <string id="three_image_marker">маркер</string>
+      <string id="progress_minute">Хвилина</string>
+      <string id="progress_minutes">Хвилин</string>
+      <string id="three_image_interaction_next">далі</string>
+      <string id="three_image_pause_audio">призупинити аудіо</string>
+      <string id="three_image_pause_video">призупинити відео</string>
+      <string id="three_image_play_audio">відтворити аудіо</string>
+      <string id="three_image_play_video">відтворити відео</string>
+      <string id="three_image_interaction_prev">назад</string>
+      <string id="progress_second">секунда</string>
+      <string id="progress_seconds">секунд</string>
+      <string id="three_image_count_of_total">%count% из %total%</string>
+      <string id="acc_three_image_step_count_of_total">шаг %count% из %total%</string>
+      <string id="three_image_tooltip">подсказка</string>
+      <string id="three_image_total_items">%total% предметов</string>
+      <string id="three_image_total_item">%total% предмет</string>
+      <string id="three_image_progress_video">прогрес</string>
+      <string id="three_image_video">відео</string>
+      <string id="three_image_video_volume">гучність відео</string>
+      <string id="acc_three_image_count_of_total_items_visited">просмотрено %count% из %total% предметов</string>
+      <string id="acc_three_image_count_of_total_item_visited">просмотрено %count% из %total% предметов</string>
+      <string id="three_image_count_of_total_visited">просмотрено %count% из %total%</string>
+      <string id="accessible_text">Доступний текст</string>
+      <string id="background_audio">Фоновый звук</string>
+      <string id="keyboardshortcuts_lower">Поєднання клавіш на клавіатурі</string>
+      <string id="zoom_to_fit">Наближайте, щоб підігнати за розміром</string>
+      <string id="modern_video_settings_close">закрыть настройки видео</string>
+      <string id="acc_modern_video_fullscreen">полноэкранное видео</string>
+      <string id="modern_video_playback_settings">Настройки воспроизведения видео</string>
+      <string id="modern_video_captions_off">Выкл.</string>
+      <string id="modern_video_captions_on">Вкл.</string>
+      <string id="modern_video_captions_label">Субтитры</string>
+      <string id="acc_modern_video_settings">настройки видео</string>
+      <string id="acc_modern_video_mute">отключить звук видео</string>
+      <string id="modern_video_normal_speed">Нормальная</string>
+      <string id="acc_modern_video_pause">приостановить видео</string>
+      <string id="acc_modern_video_pip">картинка-в-картинке</string>
+      <string id="acc_modern_video_play">воспроизвести видео</string>
+      <string id="modern_video_playback_speed_title">Скорость воспроизведения</string>
+      <string id="acc_modern_video_captions">субтитры к видео</string>
+      <string id="acc_modern_video_playback_speed">скорость воспроизведения</string>
+      <string id="acc_modern_video_volume">громкость видео</string>
+      <string id="closed_captions">Субтитри</string>
+      <string id="continueresponsive">Продовжити</string>
+      <string id="next">Далі</string>
+      <string id="prev">НАЗАД</string>
+      <string id="submit">ВІДПРАВИТИ</string>
+      <string id="playback_speed_title">Скорость воспроизведения</string>
+      <string id="playback_speed_normal">Нормальная</string>
+      <string id="continue">Продовжити</string>
+      <string id="glossary">Глосарій</string>
+      <string id="terms">Терміни</string>
+      <string id="action">Дія</string>
       <string id="alt_key">Alt</string>
       <string id="ctrl_key">Ctrl</string>
-      <string id="keyboardshortcuts">Keyboard Shortcuts</string>
-      <string id="enable_keyboardshortcuts">Enable keyboard shortcuts</string>
-      <string id="shortcuthelp">List keyboard shortcuts</string>
-      <string id="mute_shortcut">Mute / unmute</string>
-      <string id="next_shortcut">Next</string>
-      <string id="playpause_shortcut">Play / pause</string>
-      <string id="previous_shortcut">Previous</string>
-      <string id="replay_shortcut">Replay</string>
+      <string id="keyboardshortcuts">Поєднання клавіш на клавіатурі</string>
+      <string id="enable_keyboardshortcuts">Увімкнути комбінації клавіш</string>
+      <string id="shortcuthelp">Перелічити сполучення клавіш на клавіатурі</string>
+      <string id="mute_shortcut">Вимк./Вимк. звук</string>
+      <string id="next_shortcut">Наступний слайд</string>
+      <string id="playpause_shortcut">Відтворення / Пауза</string>
+      <string id="previous_shortcut">Попередній слайд</string>
+      <string id="replay_shortcut">Повторити слайд</string>
       <string id="shift_key">Shift</string>
-      <string id="shortcut">Shortcut</string>
-      <string id="submit_shortcut">Submit</string>
-      <string id="acctext_shortcut">Toggle accessible text</string>
-      <string id="background_audio_shortcut">Toggle background audio</string>
-      <string id="closedcaptions_shortcut">Toggle captions</string>
-      <string id="fullscreen_shortcut">Toggle full-screen</string>
-      <string id="togglezoom">Toggle zoom to fit</string>
-      <string id="outline">Menu</string>
-      <string id="transcript">Notes</string>
-      <string id="disabled_orientation">Please rotate your device</string>
-      <string id="resources">Resources</string>
-      <string id="restart">Restart</string>
-      <string id="resume">Resume</string>
-      <string id="close">Close</string>
-      <string id="acc_locked">locked</string>
-      <string id="acc_next">Next (Ctrl+Alt+Period)</string>
-      <string id="acc_previous">Previous (Ctrl+Alt+Comma)</string>
-      <string id="acc_search_input">search</string>
-      <string id="sidebar_toggle">Sidebar Toggle</string>
-      <string id="acc_skipnavigation">Back to top</string>
-      <string id="acc_slide_progress">slide progress</string>
-      <string id="desktop_start">Start Course</string>
-      <string id="mobile_start">Start Course</string>
-      <string id="acc_visited">visited</string>
-      <string id="clear">Clear and return to menu</string>
-      <string id="search_in">Search in:</string>
-      <string id="filter">Filter</string>
-      <string id="search">Search...</string>
-      <string id="transcript_chk">Notes</string>
-      <string id="search_results">Search Results</string>
-      <string id="slide_text_chk">Slide Text</string>
-      <string id="streaming_video_local_playback_learn_more">Learn More</string>
-      <string id="streaming_video_local_playback_republish">To watch this video, use the preview feature in Storyline 360, upload your published output to a server, publish to Review 360, or switch to static video quality.</string>
-      <string id="streaming_video_local_playback_title">Streaming video is unavailable for local playback.</string>
-      <string id="acc_cc_hide">Hide captions (Ctrl+Alt+C)</string>
-      <string id="acc_cc_show">Show captions (Ctrl+Alt+C)</string>
-      <string id="acc_enter_fullscreen">Enter full-screen (Ctrl+Alt+F)</string>
-      <string id="acc_exit_fullscreen">Exit full-screen (Ctrl+Alt+F)</string>
-      <string id="acc_mute">Mute (Ctrl+Alt+M)</string>
-      <string id="acc_next_visual">Next (Ctrl+Alt+.)</string>
-      <string id="acc_pause">Pause (Ctrl+Alt+P)</string>
-      <string id="acc_play">Play (Ctrl+Alt+P)</string>
-      <string id="acc_playback_speed">Playback speed</string>
-      <string id="acc_previous_visual">Previous (Ctrl+Alt+,)</string>
-      <string id="acc_replay">Replay (Ctrl+Alt+R)</string>
-      <string id="search_toggle">Search</string>
-      <string id="acc_settings">Settings</string>
-      <string id="acc_submit">Submit (Ctrl+Alt+S)</string>
-      <string id="acc_unmute">Unmute (Ctrl+Alt+M)</string>
-      <string id="transcript_auto_scroll">Autoscroll</string>
-      <string id="acc_window_close">Close</string>
-      <string id="acc_video_transcript_list">Transcript</string>
-      <string id="acc_window_move">Move window</string>
-      <string id="acc_modern_video_transcript">Open</string>
-      <string id="acc_window_resize">Resize window</string>
-      <string id="video_transcript_resume_autoscroll">Resume autoscroll</string>
-      <string id="video_transcript_select_track">Select track</string>
-      <string id="transcript_show_timestamp">Show timestamps</string>
-      <string id="video_transcript_title">Transcripts</string>
-      <string id="acc_window_options">Options</string>
+      <string id="shortcut">Поєднання клавіш</string>
+      <string id="submit_shortcut">Додати слайд</string>
+      <string id="acctext_shortcut">Переключити субтитри</string>
+      <string id="background_audio_shortcut">Включить фоновый звук</string>
+      <string id="closedcaptions_shortcut">Переключити доступний текст</string>
+      <string id="fullscreen_shortcut">Переключить полноэкранный режим</string>
+      <string id="togglezoom">Переключити масштаб за розміром</string>
+      <string id="outline">Меню</string>
+      <string id="transcript">Примітки</string>
+      <string id="disabled_orientation">Поверніть пристрій</string>
+      <string id="resources">Ресурси</string>
+      <string id="restart">Почати заново</string>
+      <string id="resume">Відновити тест</string>
+      <string id="close">Закрити</string>
+      <string id="acc_locked">замкнув(ла) двері</string>
+      <string id="acc_next">Далі</string>
+      <string id="acc_previous">Назад</string>
+      <string id="acc_search_input">пошук</string>
+      <string id="sidebar_toggle">Перемикання бічних панелей</string>
+      <string id="acc_skipnavigation">Вгору</string>
+      <string id="acc_slide_progress">прогрес слайдів</string>
+      <string id="desktop_start">Почати курс</string>
+      <string id="mobile_start">Почати курс</string>
+      <string id="acc_visited">відвідав(ла)</string>
+      <string id="clear">Скидання та повернення в меню</string>
+      <string id="search_in">Пошук:</string>
+      <string id="filter">Фільтр</string>
+      <string id="search">Пошук...</string>
+      <string id="transcript_chk">Примітки</string>
+      <string id="search_results">Результати пошуку</string>
+      <string id="slide_text_chk">Текст слайду</string>
+      <string id="streaming_video_local_playback_learn_more">Узнать больше</string>
+      <string id="streaming_video_local_playback_republish">Для просмотра этого видео используйте функцию предварительного просмотра в Storyline 360, загрузите свой опубликованный материал на сервер, опубликуйте его в Review 360 или переключитесь на статичное качество видео.</string>
+      <string id="streaming_video_local_playback_title">Потоковое видео недоступно для локального воспроизведения.</string>
+      <string id="acc_cc_hide">Скрыть субтитры (Ctrl+Alt+C)</string>
+      <string id="acc_cc_show">Показать субтитры (Ctrl+Alt+C)</string>
+      <string id="acc_enter_fullscreen">Войти в полноэкранный режим</string>
+      <string id="acc_exit_fullscreen">Выйти из полноэкранного режима</string>
+      <string id="acc_mute">Отключить звук (Ctrl+Alt+M)</string>
+      <string id="acc_next_visual">Далее (Ctrl+Alt+.)</string>
+      <string id="acc_pause">Пауза</string>
+      <string id="acc_play">Відтворення</string>
+      <string id="acc_playback_speed">скорость воспроизведения</string>
+      <string id="acc_previous_visual">Предыдущий (Ctrl+Alt+,)</string>
+      <string id="acc_replay">Повтор</string>
+      <string id="search_toggle">Пошук</string>
+      <string id="acc_settings">Параметры</string>
+      <string id="acc_submit">Відправити</string>
+      <string id="acc_unmute">Включить звук (Ctrl+Alt+M)</string>
+      <string id="transcript_auto_scroll">Автопрокрутка</string>
+      <string id="acc_window_close">Закрыть</string>
+      <string id="acc_video_transcript_list">Запись</string>
+      <string id="acc_window_move">Переместить окно</string>
+      <string id="acc_modern_video_transcript">Открыть</string>
+      <string id="acc_window_resize">Изменить размер окна</string>
+      <string id="video_transcript_resume_autoscroll">Возобновить автопрокрутку</string>
+      <string id="video_transcript_select_track">Выбрать трек</string>
+      <string id="transcript_show_timestamp">Показать временные метки</string>
+      <string id="video_transcript_title">Записи</string>
+      <string id="acc_window_options">Параметры</string>
     </string_table>
   </string_tables>
   <fonts>
-    <font name="Lato">
+    <font name="Open Sans">
       <files>
         <file bold="true" italic="false" />
         <file bold="false" italic="false" />
@@ -1555,15 +1590,21 @@
   <nav_data>
     <outline>
       <links>
-        <slidelink slideid="_player.5nAF2KOh9ZM" displaytext="Untitled Scene" expand="true" type="slide">
+        <slidelink slideid="_player.5zS7u5t3BXj" displaytext="Scene_Candidate Questionnaire" expand="true" type="slide">
           <links>
-            <slidelink slideid="_player.5nAF2KOh9ZM.5eqP6GbwnQZ" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5zS7u5t3BXj.6pOrPWbUA9d" displaytext="Slide_03" expand="false" type="slide" />
+            <slidelink slideid="_player.5zS7u5t3BXj.5rmV4AIvOuM" displaytext="Slide_04" expand="false" type="slide" />
+            <slidelink slideid="_player.5zS7u5t3BXj.6VZxjsbGT4f" displaytext="Slide_05" expand="false" type="slide" />
+            <slidelink slideid="_player.5zS7u5t3BXj.5VMlcSjr2Jv" displaytext="Slide_06" expand="false" type="slide" />
+            <slidelink slideid="_player.5zS7u5t3BXj.6LgolPajAZB" displaytext="Slide_07" expand="false" type="slide" />
+            <slidelink slideid="_player.5zS7u5t3BXj.6QJrwfbdq8o" displaytext="Slide_01" expand="false" type="slide" />
+            <slidelink slideid="_player.5zS7u5t3BXj.68FfNSm8xXz" displaytext="Slide_02" expand="false" type="slide" />
           </links>
         </slidelink>
       </links>
     </outline>
   </nav_data>
-  <resource_data description="&lt;p align='left'&gt;&lt;font face='Lato' style='font-size: 11px;' size='11' color='#BABBBA'&gt;Here are some useful links and documents:&lt;/font&gt;&lt;/p&gt;" />
+  <resource_data description="&lt;p align='left'&gt;&lt;font face='Open Sans' style='font-size: 11px;' size='11' color='#464646'&gt;Here are some useful links and documents:&lt;/font&gt;&lt;/p&gt;" />
   <transcript_data />
   <glossary_data />
 </bwFrame>

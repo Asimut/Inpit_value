@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>userLinkVisitOrEssay</title>
+    <title>userLinkCV</title>
     <style>
         * {
             box-sizing: border-box;
@@ -19,32 +19,31 @@
             var player = parent.GetPlayer();
             
             // Получение данных из формы или другого источника
-            var userLinkVisitOrEssay = document.getElementById("userLinkVisitOrEssay").value;
+            var userLinkCV = document.getElementById("userLinkCV").value;
             
             // Установка значений переменных в Articulate
-            player.SetVar("userLinkVisitOrEssay", userLinkVisitOrEssay);
+            player.SetVar("userLinkCV", userLinkCV);
         }
 
         function blurInputs() {
-            document.getElementById("userLinkVisitOrEssay").blur();
-        }
-        function setInputValues() {
-            // Получение ссылки на проект Articulate
-            console.log(parent);
-            var player = parent.GetPlayer();
-            console.log(window.GetPlayer());
-            
-            // Получение значений переменных из Articulate
-            var userLinkVisitOrEssay = player.GetVar("userLinkVisitOrEssay");
-            
-            // Установка значений полей ввода
-            document.getElementById("userLinkVisitOrEssay").value = userLinkVisitOrEssay;
+            document.getElementById("userLinkCV").blur();
         }
 
+        function setInputValues() {
+            // Получение ссылки на проект Articulate
+            var player = parent.GetPlayer();
+            
+            // Получение значений переменных из Articulate
+            var userLinkCV = player.GetVar("userLinkCV");
+            
+            // Установка значений полей ввода
+            document.getElementById("userLinkCV").value = userLinkCV;
+        }
+        
         document.addEventListener("DOMContentLoaded", function() {
             setInputValues();
 
-            document.getElementById("userLinkVisitOrEssay").addEventListener("input", sendDataToArticulate);
+            document.getElementById("userLinkCV").addEventListener("input", sendDataToArticulate);
 
             window.addEventListener("message", function(event) {
                 if (event.data === "blurInputs") {
@@ -55,6 +54,6 @@
     </script>
 </head>
 <body style="margin: 0;padding: 0;">
-    <input type="text" style="width: 100%; height: 100%;border: none!important; outline: none!important;background: transparent;" id="userLinkVisitOrEssay">
+    <input type="text" style="width: 100%; height: 100%;border: none!important; outline: none!important;background: transparent;" id="userLinkCV">
 </body>
 </html>

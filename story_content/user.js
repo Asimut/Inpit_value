@@ -135,4 +135,12 @@ iframes.forEach(function(iframe) {
 });
 }
 
+window.Script12 = function()
+{
+  var iframes = document.querySelectorAll("iframe");
+iframes.forEach(function(iframe) {
+    iframe.contentWindow.postMessage("blurInputs", "*");
+});
+}
+
 };
